@@ -1,0 +1,30 @@
+
+.button-group{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.button{
+    padding: 10px 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.button.delete{
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.button.delete:hover{
+    background-color: #4e050c;
+}
+.button.save{
+    background-color: #28a745;
+    color: #fff;
+}
+
+.button.save:hover{
+    background-color: #042e0d;
+}
